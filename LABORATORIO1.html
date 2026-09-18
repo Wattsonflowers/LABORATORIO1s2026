@@ -13,6 +13,7 @@
     <h4><b>Docente:</b>Ing. Mijael Jonathan Jorge Montealegre</h4>
     <h4><b>Universitario:</b>Wilson Ariel Flores Flores</h4>
 </center>
+<hr>
 
 <h2>📑 Indice de Contenidos</h2>
     <ul>
@@ -263,7 +264,7 @@
 
 <h3>Enlace de correo electrónico</h3>
 
-<a href="mailto:ejemplo@gmail.com">Enviar correo</a>
+<a href="peonpulse@gmail.com">Enviar correo</a>
 
 <br><br>
 
@@ -271,6 +272,319 @@
 
 <hr>
 
+<h2 id="imagenes">5. 🖼️ Imagenes</h2>
+
+<h3>Imagen con descripcion accesible</h3>
+
+<img src="jin woo.jpg"
+     alt="Imagen de ejemplo">
+
+<br><br>
+
+<h3>Alineacion de imagenes</h3>
+
+<img src="jin woo.jpg"
+     alt="jin"
+     width="120"
+     align="left">
+<center>
+    <img src="jin woo.jpg"
+     alt="jin woo"
+     width="100"
+     align="center">
+</center>
+
+
+<img src="jin woo.jpg"
+     alt="jin woo"
+     width="120"
+     align="right">
+
+
+<br><br>
+
+<h3>Dimensiones de imagenes</h3>
+
+<img src="jin woo.jpg"
+     alt="jin woo"
+     width="150"
+     height="200">
+
+<img src="jin woo.jpg"
+     alt="jin woo"
+     width="220"
+     height="280">
+
+<br><br>
+
+<a href="#inicio">Volver a la navegacion</a>
+
+<hr>
+
+<h2 id="formulario">6. 📄 Formulario Completo</h2>
+
+<form id="iniform">
+
+    <fieldset>
+        <legend><b>Datos Personales</b></legend>
+
+        <label>Nombre:</label>
+        <input type="text"
+               name="nombre"
+               placeholder="Escribe tu nombre"
+               required>
+
+        <br><br>
+
+        <label>Apellido:</label>
+        <input type="text"
+               name="apellido"
+               placeholder="Escribe tu apellido"
+               required>
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email"
+               name="email"
+               placeholder="correo@gmail.com">
+
+        <br><br>
+
+        <label>Contraseña:</label>
+        <input type="password"
+               name="password"
+               placeholder="Mínimo 8 caracteres"
+               minlength="8">
+
+        <br><br>
+
+        <label>Fecha de nacimiento:</label>
+        <input type="date"
+               name="fecha">
+    </fieldset>
+
+
+    <br>
+
+    <fieldset>
+        <legend><b>Información Adicional</b></legend>
+
+        <label>País:</label>
+
+        <select name="pais">
+            <option value="">-- Seleccione un país --</option>
+
+            <optgroup label="Sudamerica">
+                <option>Bolivia</option>
+                <option>Argentina</option>
+                <option>Chile</option>
+                <option>Perú</option>
+                <option>Brasil</option>
+            </optgroup>
+
+            <optgroup label="Europa">
+                <option>España</option>
+                <option>Francia</option>
+                <option>Alemania</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <label for="">Ciudad:</label>
+        <select name="Ciudad" id="">
+            <option value="">
+                seleccione una ciudad
+            </option>
+                <optgroup label="Ciudad">
+                        <option>Tupiza</option>
+                        <option>Cotagaita</option>
+                        <option>Villazon</option>
+                        <option>San vicente</option>
+                        <option>Potosi</option>
+                </optgroup>
+
+        </select>
+        
+        <br><br>
+
+        <label>Mensaje:</label>
+        <br>
+
+        <textarea name="mensaje"
+                  rows="5"
+                  cols="50"
+                  placeholder="Escribe tu mensaje aqui..."></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Preferencias</b></legend>
+
+        <p>Genero:</p>
+
+        <input type="radio"
+               name="genero"
+               value="Masculino">
+        Masculino
+
+        <input type="radio"
+               name="genero"
+               value="Femenino">
+        Femenino
+
+        <input type="radio"
+               name="genero"
+               value="Otro">
+        Otro
+
+
+        <br><br>
+
+
+        <p>Intereses:</p>
+
+        <input type="checkbox"
+               name="interes"
+               value="Deportes">
+        Deportes
+
+        <input type="checkbox"
+               name="interes"
+               value="Musica">
+        Musica
+
+        <input type="checkbox"
+               name="interes"
+               value="Tecnologia">
+        Tecnologia
+
+
+        <br><br>
+
+
+       <label>Nivel de experiencia:</label>
+
+<progress id="barra" value="50" max="100"></progress>
+
+<span id="porcentaje">50%</span>
+
+<br>
+
+        <input type="range"
+        id="experiencia"
+        min="0"
+        max="100"
+        value="50"
+        oninput="
+           barra.value = this.value;
+           porcentaje.textContent = this.value + '%';
+        ">
+
+    </fieldset>
+
+
+    <br>
+
+    <center>
+        <button type="submit">✅ Enviar</button>
+
+        <button type="reset">🔄 Borrar</button>
+    </center>
+    
+    
+
+</form>
+
+
+<br>
+
+<a href="#inicio" align="left">Volver a la navegacion</a>
+<a href="#iniform" align="right"> volver a inicio del formulario</a>
+
+<hr>
+
+<h2 id="colores">7. 🎨 Fondos y Colores</h2>
+
+<h3>Texto con colores personalizados</h3>
+
+<p style="color: red;">
+   🔴 Este texto es rojo
+</p>
+
+<p style="color: blue;">
+    🔵Este texto es azul
+</p>
+
+<p style="color: green;">
+    🟢Este texto es verde
+</p>
+
+<p style="color: magenta;">
+    🟣Este texto es magenta
+</p>
+
+<p style="color: orange;">
+   🟠 Este texto es naranja
+</p>
+
+
+<h3>Tabla con colores de fondo</h3>
+
+<table border="1"
+       cellpadding="10"
+       style="border-collapse: collapse; width: 100%;">
+
+    <tr style="background-color: #3498db; color: rgb(246, 177, 177);">
+        <th style="color: black;">Columna 1</th>
+        <th>Columna 2</th>
+        <th>Columna 3</th>
+    </tr>
+
+    <tr style="background-color: #94deb4;">
+        <td>Fila 1 - Celda 1</td>
+        <td>Fila 1 - Celda 2</td>
+        <td>Fila 1 - Celda 3</td>
+    </tr>
+
+    <tr style="background-color: #60a3d3;">
+        <td>Fila 2 - Celda 1</td>
+        <td>Fila 2 - Celda 2</td>
+        <td>Fila 2 - Celda 3</td>
+    </tr>
+
+    <tr style="background-color: #8bffbd;">
+        <td>Fila 3 - Celda 1</td>
+        <td>Fila 3 - Celda 2</td>
+        <td>Fila 3 - Celda 3</td>
+    </tr>
+
+</table>
+
+<br>
+
+<a href="#inicio">Volver a la navegación</a>
+
+<hr>
+
+<footer style="text-align: center; font-size: 13px; line-height: 1.2; padding: 5px;">
+    
+    <p style="margin: 1px;">Laboratorio de Desarrollo Web © 2026</p>
+    
+    <p style="margin: 1px;">Ing. Mijael Jonathan Jorge Montealegre</p>
+    
+    <p style="margin: 1px;">Todos los derechos reservados</p>
+    
+    <p style="margin: 1px;">TECNOLOGÍAS EMERGENTES</p>
+    
+    <p style="margin: 10px;">
+        <a href="#inicio">Volver al inicio ↑</a>
+    </p>
+
+</footer>
 
 </body>
 </html>
